@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import "./Table.css"
-import { AppContext } from "../Context";
+import { AppContext } from "../../Context";
 const Table = () => {
   const { actualData } = useContext(AppContext)
   return (
