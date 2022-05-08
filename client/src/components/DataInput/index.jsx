@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import "./DataInput.css";
-import { AppContext } from "../Context";
+import { AppContext } from "../../Context";
 const DataInput = () => {
   const { addMember, actualData } = useContext(AppContext);
   const [firstName, setFirstName] = useState();
